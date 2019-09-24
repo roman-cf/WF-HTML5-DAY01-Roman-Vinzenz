@@ -8,18 +8,59 @@
 
 <header><h1>Contact Form</h1></header>
 <main>
-	<table>
-		<tr>
-			<th>Spalte 1</th>
-			<th>Spalte 2</th>
-		</tr>
-		<tr>
-			<td>Zeile 1</td>
-			<td>Zeile 2</td>
-		</tr>
+	<form>
+		<table>
+			<tr>
+				<th align="right">Spalte 1</th>
+				<th align="left">Spalte 2</th>
 
-	</table>
-	
+			</tr>
+			<tr>
+				<td align="right">Name</td>
+				<td><input type="text" name="one"></td>
+				
+			</tr>
+			<tr>
+				<td align="right">Nickname</td>
+				<td><input type="text" name="two"><input type="checkbox" name="checkbox" >check if you want to show</td>
+			</tr>
+			<tr>
+				<td align="right">Email</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td align="right">Select Gender</td>
+				<td>
+					<input type="radio" name="gender" value="male"> Male <br/>
+			      	<input type="radio" name="gender" value="female" checked> Female <br/>
+			      	<input type="radio" name="gender" value="other"> Other <br/>
+			     </td>
+			</tr>
+			<tr>
+				<td align="right">Select an Option</td>
+				<td>
+					<select name="select1">
+						<option value="1">Case 1</option>
+						<option value="2">Case 2</option>
+						<option value="3">Case 3</option>
+						<option value="4">Case 4</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<textarea name="message" rows="10" cols="20">Something you want to tell us</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>When finish, press Button</td>
+				<td><input type="button" name="" value="Submit"></td>
+			</tr>
+
+
+		</table>
+	</form>
 </main>
 
 </body>
